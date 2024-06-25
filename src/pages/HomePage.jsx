@@ -71,7 +71,7 @@ const HomePage = () => {
           >
             <h2 className="text-2xl font-semibold mb-4">Get Notified!</h2>
             <p className="mb-4">
-              Enter your email below to be notified when we launch.
+              Enter your email below to get notified when we launch.
             </p>
             <input
               type="email"
