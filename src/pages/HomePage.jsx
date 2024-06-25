@@ -20,32 +20,32 @@ const HomePage = () => {
 
   return (
     <Fragment>
-      <section className="container md:flex items-center h-[60vh] relative z-10">
-        <div className="w-1/2">
-          <h1 className="md:text-[5rem] font-medium font-brigast">
+      <section className="container flex flex-col md:flex-row items-center h-[60vh] relative z-10">
+        <div className="w-full md:w-1/2 text-center md:text-left">
+          <h1 className="text-3xl md:text-[5rem] font-medium font-brigast">
             COMING SOON!
           </h1>
-          <p className="text-xl font-medium">
+          <p className="text-lg md:text-xl font-medium mt-4 md:mt-0">
             Delighting pet owners with stylish and comfortable accessories for
             their furry friends.
           </p>
           <button
-            className="btn md:w-[300px] py-5 rounded-full text-xl mt-8 ml-[10rem] shadow-md shadow-gray-600"
+            className="btn w-[200px] md:w-[300px] py-3 md:py-5 rounded-full text-lg md:text-xl mt-8 mx-auto md:ml-[10rem] shadow-md shadow-gray-600"
             onClick={handleButtonClick}
           >
             Get Notified
           </button>
         </div>
 
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
           <img
             src={pet1}
             alt=""
-            className="w-[10rem] md:w-[30rem] absolute -top-[3.5rem] right-0"
+            className="w-[8rem] md:w-[30rem] relative md:absolute md:-top-[3.5rem] md:right-0"
           />
         </div>
       </section>
-      <p className="flex items-center gap-2 absolute left-[5%] bottom-[4%] font-semibold z-10">
+      <p className="flex items-center gap-2 absolute left-[5%] bottom-[2%] md:bottom-[4%] text-sm md:text-base font-semibold z-10">
         <FontAwesomeIcon icon={faEnvelope} />
         ploofypaws@gmail.com
       </p>
@@ -53,23 +53,23 @@ const HomePage = () => {
       <img
         src={ellipse1}
         alt=""
-        className="absolute md:-top-[5rem] md:right-0"
+        className="absolute -top-[5rem] right-0 w-[8rem] md:w-auto"
       />
       <img
         src={ellipse2}
         alt=""
-        className="absolute md:top-[18.7rem] md:w-[24rem]"
+        className="absolute top-[15rem] md:top-[18.7rem] w-[16rem] md:w-[24rem]"
       />
 
       {showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-20">
           <div
-            className="p-8 rounded-lg shadow-lg text-white"
+            className="p-4 md:p-8 rounded-lg shadow-lg text-white"
             style={{
               backgroundColor: "#E9AB0B",
             }}
           >
-            <h2 className="text-2xl font-semibold mb-4">Get Notified!</h2>
+            <h2 className="text-xl md:text-2xl font-semibold mb-4">Get Notified!</h2>
             <p className="mb-4">
               Enter your email below to be notified when we launch.
             </p>
