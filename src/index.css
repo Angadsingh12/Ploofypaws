@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./assets/paw-background.png") #f9ebd9;
+  @apply font-poppins
+}
+
+/* Utility */
+.container {
+  @apply px-14
+}
+
+.btn {
+  @apply bg-[#090603] text-white hover:opacity-70 transition-all duration-300 z-10
+}

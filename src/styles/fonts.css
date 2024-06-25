@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'BlackMango';
+    src: url('../fonts/BlackMango.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brigast';
+    src: url('../fonts/Brigast.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
