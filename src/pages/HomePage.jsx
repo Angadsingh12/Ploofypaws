@@ -4,7 +4,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../styles/fonts.css";
 
 import pet1 from "../assets/pet1.png";
-import ellipse1 from "../assets/Ellipse1.png";
+import ellipse1 from "../assets/Ellipse 1.png";
 import ellipse2 from "../assets/Ellipse2.png";
 
 const HomePage = () => {
@@ -20,56 +20,56 @@ const HomePage = () => {
 
   return (
     <Fragment>
-      <section className="container flex flex-col md:flex-row items-center h-[100vh] relative z-10 p-5 md:p-0">
-        <div className="w-full md:w-1/2 text-center md:text-left mb-10 md:mb-0">
-          <h1 className="text-4xl md:text-6xl lg:text-[5rem] font-medium font-brigast leading-tight md:leading-none">
+      <section className="container md:flex items-center h-[60vh] relative z-10">
+        <div className="w-1/2">
+          <h1 className="md:text-[5rem] font-medium font-brigast">
             COMING SOON!
           </h1>
-          <p className="text-lg md:text-xl lg:text-2xl font-medium mt-4 md:mt-0">
+          <p className="text-xl font-medium">
             Delighting pet owners with stylish and comfortable accessories for
             their furry friends.
           </p>
           <button
-            className="btn w-[200px] md:w-[300px] py-3 md:py-5 rounded-full text-lg md:text-xl mt-8 mx-auto md:ml-0 shadow-md shadow-gray-600"
+            className="btn md:w-[300px] py-5 rounded-full text-xl mt-8 ml-[10rem] shadow-md shadow-gray-600"
             onClick={handleButtonClick}
           >
             Get Notified
           </button>
         </div>
 
-        <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+        <div className="w-1/2">
           <img
             src={pet1}
-            alt="Pet"
-            className="w-[10rem] md:w-[25rem] lg:w-[30rem] relative"
+            alt=""
+            className="w-[10rem] md:w-[30rem] absolute -top-[3.5rem] right-0"
           />
         </div>
       </section>
-      <p className="flex items-center gap-2 absolute left-[5%] bottom-[2%] md:bottom-[4%] text-sm md:text-base font-semibold z-10">
+      <p className="flex items-center gap-2 absolute left-[5%] bottom-[4%] font-semibold z-10">
         <FontAwesomeIcon icon={faEnvelope} />
         ploofypaws@gmail.com
       </p>
 
       <img
         src={ellipse1}
-        alt="Ellipse1"
-        className="absolute -top-[5rem] right-0 w-[8rem] md:w-[12rem]"
+        alt=""
+        className="absolute md:-top-[5rem] md:right-0"
       />
       <img
         src={ellipse2}
-        alt="Ellipse2"
-        className="absolute top-[15rem] md:top-[18.7rem] w-[16rem] md:w-[24rem]"
+        alt=""
+        className="absolute md:top-[18.7rem] md:w-[24rem]"
       />
 
       {showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-20">
           <div
-            className="p-4 md:p-8 rounded-lg shadow-lg text-white"
-            style={{ backgroundColor: "#E9AB0B" }}
+            className="p-8 rounded-lg shadow-lg text-white"
+            style={{
+              backgroundColor: "#E9AB0B",
+            }}
           >
-            <h2 className="text-xl md:text-2xl font-semibold mb-4">
-              Get Notified!
-            </h2>
+            <h2 className="text-2xl font-semibold mb-4">Get Notified!</h2>
             <p className="mb-4">
               Enter your email below to be notified when we launch.
             </p>
