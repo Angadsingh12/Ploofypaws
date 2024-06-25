@@ -12,8 +12,8 @@ const Navbar = () => {
         <h2 className="font-gloria text-xl -ml-9">PloofyPaws</h2>
       </Link>
 
-      <div className="absolute top-0 right-0 mt-5 mr-5">
-        <button className="flex justify-center items-center rounded-md gap-3 w-[194px] h-[56px] btn">
+      <div className="fixed top-0 right-0 mt-5 mr-5 z-50">
+        <button className="flex justify-center items-center rounded-md gap-3 w-[10vw] md:w-[194px] h-[56px] btn">
           <FontAwesomeIcon icon={faUser} /> Sign Up
         </button>
       </div>
