@@ -23,7 +23,7 @@ const HomePage = () => {
       <section className="container flex flex-col md:flex-row items-center h-[60vh] relative z-10">
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-3xl md:text-[5rem] font-medium font-brigast">
-            COMING SOON!
+            COMING SOON!!
           </h1>
           <p className="text-lg md:text-xl font-medium mt-4 md:mt-0">
             Delighting pet owners with stylish and comfortable accessories for
