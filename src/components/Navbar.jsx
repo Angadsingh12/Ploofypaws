@@ -7,7 +7,7 @@ import logo from "../assets/logo.png";
 const Navbar = () => {
   return (
     <nav className="container flex justify-between items-center py-5 relative">
-      <Link to="/" className="flex items-center">
+      <Link to="/" className="absolute top-0 left-0 flex items-center ml-5 mt-5">
         <img src={logo} alt="Logo" className="w-[169px] h-[112px]" />
         <h2 className="font-gloria text-xl -ml-9">PloofyPaws</h2>
       </Link>

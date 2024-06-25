@@ -19,12 +19,12 @@ const HomePage = () => {
 
   return (
     <Fragment>
-      <section className="container flex items-center justify-center h-[60vh] relative z-10">
+      <section className="container flex items-center justify-center min-h-screen relative z-10">
         <div className="text-center">
-          <h1 className="text-3xl md:text-5xl font-medium font-brigast">
+          <h1 className="text-4xl md:text-6xl font-medium font-brigast">
             COMING SOON!
           </h1>
-          <p className="text-lg md:text-xl font-medium">
+          <p className="text-xl md:text-2xl font-medium">
             Delighting pet owners with stylish and comfortable accessories for
             their furry friends.
           </p>
