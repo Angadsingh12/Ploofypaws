@@ -20,32 +20,24 @@ const HomePage = () => {
 
   return (
     <Fragment>
-      <section className="container md:flex items-center h-[60vh] relative z-10">
-        <div className="w-1/2">
-          <h1 className="md:text-[5rem] font-medium font-brigast">
+      <section className="container flex items-center justify-center h-[60vh] relative z-10">
+        <div className="text-center">
+          <h1 className="text-3xl md:text-5xl font-medium font-brigast">
             COMING SOON!
           </h1>
-          <p className="text-xl font-medium">
+          <p className="text-lg md:text-xl font-medium">
             Delighting pet owners with stylish and comfortable accessories for
             their furry friends.
           </p>
           <button
-            className="btn md:w-[300px] py-5 rounded-full text-xl mt-8 ml-[10rem] shadow-md shadow-gray-600"
+            className="btn w-40 md:w-72 py-3 md:py-5 rounded-full text-lg md:text-xl mt-8 shadow-md shadow-gray-600"
             onClick={handleButtonClick}
           >
             Get Notified
           </button>
         </div>
-
-        <div className="w-1/2">
-          <img
-            src={pet1}
-            alt=""
-            className="w-[10rem] md:w-[30rem] absolute -top-[3.5rem] right-0"
-          />
-        </div>
       </section>
-      <p className="flex items-center gap-2 absolute left-[5%] bottom-[4%] font-semibold z-10">
+      <p className="flex items-center gap-2 absolute left-5 bottom-5 font-semibold z-10">
         <FontAwesomeIcon icon={faEnvelope} />
         ploofypaws@gmail.com
       </p>
@@ -53,12 +45,18 @@ const HomePage = () => {
       <img
         src={ellipse1}
         alt=""
-        className="absolute md:-top-[5rem] md:right-0"
+        className="absolute md:-top-20 md:right-0"
       />
       <img
         src={ellipse2}
         alt=""
-        className="absolute md:top-[18.7rem] md:w-[24rem]"
+        className="absolute bottom-0 left-0 w-40 md:w-96"
+      />
+
+      <img
+        src={pet1}
+        alt=""
+        className="absolute bottom-0 right-0 w-40 md:w-80 lg:w-96"
       />
 
       {showPopup && (
