@@ -4,7 +4,6 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../styles/fonts.css";
 
 import pet1 from "../assets/pet1.png";
-import ellipse1 from "../assets/Ellipse 1.png";
 import ellipse2 from "../assets/Ellipse2.png";
 
 const HomePage = () => {
@@ -42,22 +41,9 @@ const HomePage = () => {
         ploofypaws@gmail.com
       </p>
 
-      <img
-        src={ellipse1}
-        alt=""
-        className="absolute md:-top-20 md:right-0"
-      />
-      <img
-        src={ellipse2}
-        alt=""
-        className="absolute bottom-0 left-0 w-40 md:w-96"
-      />
+      <img src={ellipse2} alt="" className="absolute bottom-0 left-0 w-40 md:w-96" />
 
-      <img
-        src={pet1}
-        alt=""
-        className="absolute bottom-0 right-0 w-40 md:w-80 lg:w-96"
-      />
+      <img src={pet1} alt="" className="absolute bottom-0 right-0 w-40 md:w-80 lg:w-96" />
 
       {showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-20">
