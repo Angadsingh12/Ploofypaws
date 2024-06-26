@@ -21,7 +21,7 @@ const HomePage = () => {
     <Fragment>
       <section className="container flex items-center justify-center min-h-screen relative z-10">
         <div className="text-center">
-          <h1 className="text-4xl md:text-6xl font-medium font-brigast">
+          <h1 className="text-6xl md:text-8xl font-Large font-brigast">
             COMING SOON
           </h1>
           <p className="text-xl md:text-2xl font-medium">
