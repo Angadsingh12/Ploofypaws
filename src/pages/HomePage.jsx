@@ -20,11 +20,11 @@ const HomePage = () => {
   return (
     <Fragment>
       <section className="container flex items-center justify-center min-h-screen relative z-10">
-        <div className="text-center transform translate-x-1/4">
-          <h1 className="text-6xl md:text-8xl font-large font-brigast">
+        <div className="text-center">
+          <h1 className="text-4xl md:text-6xl font-medium font-brigast">
             COMING SOON
           </h1>
-          <p className="text-xl md:text-2xl font-medium pt-8">
+          <p className="text-xl md:text-2xl font-medium">
             Delighting pet owners with stylish and comfortable accessories for
             their furry friends.
           </p>
@@ -78,4 +78,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+  export default HomePage;
